@@ -15,3 +15,11 @@ Un mini-projet Java de générateur de mots de passe en ligne de commande, déve
    ```bash
    git clone https://github.com/ton-nom-utilisateur/password-generator.git
    cd password-generator
+
+## Installation
+2. Compilez et exécutez le projet :
+   ```bash
+   mvn clean install
+   mvn spring-boot:run
+
+
