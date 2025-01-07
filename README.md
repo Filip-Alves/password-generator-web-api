@@ -20,23 +20,30 @@ Générateur de mot de passe sécurisé avec une API REST et une interface web.
    ```bash
    git clone https://github.com/Filip-Alves/password-generator-web-api.git
    cd password-generator-web-api
+   ```
 
 2. Installez les dépendances Maven :
    ```bash
    mvn install
+   ```
 
 ## Lancer l'application
    ```bash
    mvn spring-boot:run
+   ```
 
 ## API REST
 - **URL :** POST /api/password/generate
 
 - **Body (JSON) :**
 
-```json
-{
-  "length": 12,
-  "includeNumbers": true,
-  "includeSpecialChars": true
-}
+    ```json
+    {
+        "length": 12,
+        "includeNumbers": true,
+        "includeSpecialChars": true
+    }
+    ```
+
+## Interface Web
+Accédez à l'interface utilisateur via http://localhost:8081/password/generate
