@@ -30,15 +30,13 @@ Générateur de mot de passe sécurisé avec une API REST et une interface web.
    mvn spring-boot:run
 
 ## API REST
-- ** URL : POST /api/password/generate **
+- **URL :** POST /api/password/generate
 
-- ** Body (JSON) : **
+- **Body (JSON) :**
 
-   ```json
-   {
-     "length": 12,
-     "includeNumbers": true,
-     "includeSpecialChars": true
-   }
-
-Réponse : Mot de passe généré, ex. : "ABc$1234dE"
+```json
+{
+  "length": 12,
+  "includeNumbers": true,
+  "includeSpecialChars": true
+}
